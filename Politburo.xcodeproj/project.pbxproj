@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280A26D81ECBAEF500EDE993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A26D71ECBAEF500EDE993 /* AppDelegate.swift */; };
+		280A26DA1ECBAEF500EDE993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A26D91ECBAEF500EDE993 /* ViewController.swift */; };
+		280A26DD1ECBAEF500EDE993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280A26DB1ECBAEF500EDE993 /* Main.storyboard */; };
+		280A26E01ECBAEF500EDE993 /* Politburo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 280A26DE1ECBAEF500EDE993 /* Politburo.xcdatamodeld */; };
+		280A26E21ECBAEF500EDE993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280A26E11ECBAEF500EDE993 /* Assets.xcassets */; };
+		280A26E51ECBAEF500EDE993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280A26E31ECBAEF500EDE993 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280A26D41ECBAEF500EDE993 /* Politburo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politburo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280A26D71ECBAEF500EDE993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280A26D91ECBAEF500EDE993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280A26DC1ECBAEF500EDE993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280A26DF1ECBAEF500EDE993 /* Politburo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Politburo.xcdatamodel; sourceTree = "<group>"; };
+		280A26E11ECBAEF500EDE993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280A26E41ECBAEF500EDE993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280A26E61ECBAEF500EDE993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280A26D11ECBAEF500EDE993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280A26CB1ECBAEF400EDE993 = {
+			isa = PBXGroup;
+			children = (
+				280A26D61ECBAEF500EDE993 /* Politburo */,
+				280A26D51ECBAEF500EDE993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280A26D51ECBAEF500EDE993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280A26D41ECBAEF500EDE993 /* Politburo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280A26D61ECBAEF500EDE993 /* Politburo */ = {
+			isa = PBXGroup;
+			children = (
+				280A26D71ECBAEF500EDE993 /* AppDelegate.swift */,
+				280A26D91ECBAEF500EDE993 /* ViewController.swift */,
+				280A26DB1ECBAEF500EDE993 /* Main.storyboard */,
+				280A26E11ECBAEF500EDE993 /* Assets.xcassets */,
+				280A26E31ECBAEF500EDE993 /* LaunchScreen.storyboard */,
+				280A26E61ECBAEF500EDE993 /* Info.plist */,
+				280A26DE1ECBAEF500EDE993 /* Politburo.xcdatamodeld */,
+			);
+			path = Politburo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280A26D31ECBAEF500EDE993 /* Politburo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280A26E91ECBAEF500EDE993 /* Build configuration list for PBXNativeTarget "Politburo" */;
+			buildPhases = (
+				280A26D01ECBAEF500EDE993 /* Sources */,
+				280A26D11ECBAEF500EDE993 /* Frameworks */,
+				280A26D21ECBAEF500EDE993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Politburo;
+			productName = Politburo;
+			productReference = 280A26D41ECBAEF500EDE993 /* Politburo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280A26CC1ECBAEF400EDE993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dung Pham";
+				TargetAttributes = {
+					280A26D31ECBAEF500EDE993 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KY568F6DG9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 280A26CF1ECBAEF400EDE993 /* Build configuration list for PBXProject "Politburo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280A26CB1ECBAEF400EDE993;
+			productRefGroup = 280A26D51ECBAEF500EDE993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280A26D31ECBAEF500EDE993 /* Politburo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280A26D21ECBAEF500EDE993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280A26E51ECBAEF500EDE993 /* LaunchScreen.storyboard in Resources */,
+				280A26E21ECBAEF500EDE993 /* Assets.xcassets in Resources */,
+				280A26DD1ECBAEF500EDE993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280A26D01ECBAEF500EDE993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280A26DA1ECBAEF500EDE993 /* ViewController.swift in Sources */,
+				280A26D81ECBAEF500EDE993 /* AppDelegate.swift in Sources */,
+				280A26E01ECBAEF500EDE993 /* Politburo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		280A26DB1ECBAEF500EDE993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280A26DC1ECBAEF500EDE993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280A26E31ECBAEF500EDE993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280A26E41ECBAEF500EDE993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280A26E71ECBAEF500EDE993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280A26E81ECBAEF500EDE993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280A26EA1ECBAEF500EDE993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KY568F6DG9;
+				INFOPLIST_FILE = Politburo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.Politburo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		280A26EB1ECBAEF500EDE993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KY568F6DG9;
+				INFOPLIST_FILE = Politburo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.Politburo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280A26CF1ECBAEF400EDE993 /* Build configuration list for PBXProject "Politburo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A26E71ECBAEF500EDE993 /* Debug */,
+				280A26E81ECBAEF500EDE993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280A26E91ECBAEF500EDE993 /* Build configuration list for PBXNativeTarget "Politburo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280A26EA1ECBAEF500EDE993 /* Debug */,
+				280A26EB1ECBAEF500EDE993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		280A26DE1ECBAEF500EDE993 /* Politburo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				280A26DF1ECBAEF500EDE993 /* Politburo.xcdatamodel */,
+			);
+			currentVersion = 280A26DF1ECBAEF500EDE993 /* Politburo.xcdatamodel */;
+			path = Politburo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 280A26CC1ECBAEF400EDE993 /* Project object */;
+}
