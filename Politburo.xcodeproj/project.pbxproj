@@ -13,6 +13,8 @@
 		280A26E01ECBAEF500EDE993 /* Politburo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 280A26DE1ECBAEF500EDE993 /* Politburo.xcdatamodeld */; };
 		280A26E21ECBAEF500EDE993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280A26E11ECBAEF500EDE993 /* Assets.xcassets */; };
 		280A26E51ECBAEF500EDE993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280A26E31ECBAEF500EDE993 /* LaunchScreen.storyboard */; };
+		280A26ED1ECBC4FB00EDE993 /* NPT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280A26EC1ECBC4FB00EDE993 /* NPT.jpg */; };
+		280A26F11ECBC72600EDE993 /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A26F01ECBC72600EDE993 /* MembersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		280A26E11ECBAEF500EDE993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280A26E41ECBAEF500EDE993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280A26E61ECBAEF500EDE993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280A26EC1ECBC4FB00EDE993 /* NPT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NPT.jpg; sourceTree = "<group>"; };
+		280A26F01ECBC72600EDE993 /* MembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MembersViewController.swift; path = ../MembersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		280A26D61ECBAEF500EDE993 /* Politburo */ = {
 			isa = PBXGroup;
 			children = (
+				280A26EC1ECBC4FB00EDE993 /* NPT.jpg */,
 				280A26D71ECBAEF500EDE993 /* AppDelegate.swift */,
 				280A26D91ECBAEF500EDE993 /* ViewController.swift */,
+				280A26F01ECBC72600EDE993 /* MembersViewController.swift */,
 				280A26DB1ECBAEF500EDE993 /* Main.storyboard */,
 				280A26E11ECBAEF500EDE993 /* Assets.xcassets */,
 				280A26E31ECBAEF500EDE993 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280A26ED1ECBC4FB00EDE993 /* NPT.jpg in Resources */,
 				280A26E51ECBAEF500EDE993 /* LaunchScreen.storyboard in Resources */,
 				280A26E21ECBAEF500EDE993 /* Assets.xcassets in Resources */,
 				280A26DD1ECBAEF500EDE993 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				280A26F11ECBC72600EDE993 /* MembersViewController.swift in Sources */,
 				280A26DA1ECBAEF500EDE993 /* ViewController.swift in Sources */,
 				280A26D81ECBAEF500EDE993 /* AppDelegate.swift in Sources */,
 				280A26E01ECBAEF500EDE993 /* Politburo.xcdatamodeld in Sources */,
