@@ -38,7 +38,7 @@
                     <navigationItem key="navigationItem" id="ScN-DY-2JL">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="IPX-vr-1v6">
                             <connections>
-                                <segue destination="j00-7n-CQZ" kind="show" id="O00-bi-ZGx"/>
+                                <segue destination="j00-7n-CQZ" kind="show" identifier="memberSegue" id="O00-bi-ZGx"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -69,18 +69,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fu-jd-vB6">
-                                <rect key="frame" x="172" y="308" width="30" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NPT.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SpP-P2-yNx">
+                                <rect key="frame" x="47" y="83" width="280" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRV-qc-WYm">
+                                <rect key="frame" x="47" y="348" width="280" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="j00-7n-CQZ" eventType="touchUpInside" id="c1i-zE-36R"/>
+                                    <action selector="deleteTapped:" destination="j00-7n-CQZ" eventType="touchUpInside" id="rAb-bF-uav"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fu-jd-vB6">
+                                <rect key="frame" x="47" y="307" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addTapped:" destination="j00-7n-CQZ" eventType="touchUpInside" id="ejA-Ok-q3h"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NPT.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SpP-P2-yNx">
-                                <rect key="frame" x="47" y="83" width="280" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -103,13 +114,15 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="addUpdateButton" destination="4fu-jd-vB6" id="d84-F4-qrW"/>
+                        <outlet property="deleteButton" destination="DRV-qc-WYm" id="3sT-Op-RK5"/>
                         <outlet property="membersImage" destination="SpP-P2-yNx" id="8so-3X-mkC"/>
                         <outlet property="nameTextField" destination="WR6-3q-7hh" id="mQt-qp-hcd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRs-fA-GFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1910" y="-179"/>
+            <point key="canvasLocation" x="1909.5999999999999" y="-179.46026986506749"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qoU-Rd-PXB">
